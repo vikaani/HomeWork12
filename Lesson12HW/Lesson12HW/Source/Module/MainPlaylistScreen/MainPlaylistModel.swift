@@ -22,10 +22,9 @@ class MainPlaylistModel {
     
     func loadData() {
         
-        dataLoader.loadPlaylist { playlist in
-            
-            self.items = playlist?.songs ?? []
-            self.delegate?.dataDidLoad()
+        dataLoader.loadPlaylist { [weak self] playlist in
+            self?.items = playlist?.songs ?? []
+            self?.delegate?.dataDidLoad()
         }
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63B3F19D2BC00A7300238A12 /* MainPlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3F19C2BC00A7300238A12 /* MainPlaylistCell.swift */; };
+		63B3F19F2BC533A000238A12 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3F19E2BC533A000238A12 /* SongsViewController.swift */; };
 		CE4715042BBAC38F00759142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4715032BBAC38F00759142 /* AppDelegate.swift */; };
 		CE4715062BBAC38F00759142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4715052BBAC38F00759142 /* SceneDelegate.swift */; };
 		CE47150B2BBAC38F00759142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4715092BBAC38F00759142 /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63B3F19C2BC00A7300238A12 /* MainPlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPlaylistCell.swift; sourceTree = "<group>"; };
+		63B3F19E2BC533A000238A12 /* SongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
 		CE4715002BBAC38F00759142 /* Lesson12HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson12HW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4715032BBAC38F00759142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE4715052BBAC38F00759142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -253,6 +257,7 @@
 				CE47153F2BBB0CC300759142 /* MainPlaylistViewController.swift */,
 				CE4715412BBB0CDB00759142 /* MainPlaylistModel.swift */,
 				CE4715432BBB0CEC00759142 /* MainPlaylistView.swift */,
+				63B3F19C2BC00A7300238A12 /* MainPlaylistCell.swift */,
 			);
 			path = MainPlaylistScreen;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 			children = (
 				CE4715702BBC31C700759142 /* PlaylistModesViewController.swift */,
 				CE4715722BBC31D000759142 /* PlaylistModesModel.swift */,
+				63B3F19E2BC533A000238A12 /* SongsViewController.swift */,
 				CE4715742BBC31D800759142 /* PlaylistModesView.swift */,
 			);
 			path = PlaylistModesScreen;
@@ -374,6 +380,7 @@
 				CE47153D2BBB082200759142 /* Playlist.swift in Sources */,
 				CE47152C2BBADF0A00759142 /* MainView.swift in Sources */,
 				CE47156C2BBC306300759142 /* PlaylistByGenreModel.swift in Sources */,
+				63B3F19D2BC00A7300238A12 /* MainPlaylistCell.swift in Sources */,
 				CE4715672BBC2D8C00759142 /* PlaylistMoveDeleteView.swift in Sources */,
 				CE4715442BBB0CEC00759142 /* MainPlaylistView.swift in Sources */,
 				CE4715752BBC31D800759142 /* PlaylistModesView.swift in Sources */,
@@ -386,6 +393,7 @@
 				CE4715042BBAC38F00759142 /* AppDelegate.swift in Sources */,
 				CE4715332BBAFBF100759142 /* TaskItem.swift in Sources */,
 				CE4715652BBC2D8000759142 /* PlaylistMoveDeleteModel.swift in Sources */,
+				63B3F19F2BC533A000238A12 /* SongsViewController.swift in Sources */,
 				CE47152A2BBADEF700759142 /* MainModel.swift in Sources */,
 				CE47152E2BBAE0EC00759142 /* UIView+Identifier.swift in Sources */,
 				CE47155E2BBC26AB00759142 /* PlaylistDeleteModel.swift in Sources */,
@@ -548,7 +556,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73R9GZLZRC;
+				DEVELOPMENT_TEAM = CW43T79V3J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Lesson12HW/Resource/Plist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -556,12 +564,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Vint-Rock.Lesson12HW";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vint-Rock.Lesson12HW1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -576,7 +585,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73R9GZLZRC;
+				DEVELOPMENT_TEAM = CW43T79V3J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Lesson12HW/Resource/Plist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -584,12 +593,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Vint-Rock.Lesson12HW";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vint-Rock.Lesson12HW1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
